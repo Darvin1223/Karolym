@@ -461,7 +461,7 @@ h3.texto-header.mobile {
   padding: 3rem 0;
 }
 .contenido-main{
-  height: 50rem;
+  height: 56rem;
   width: 28rem;
   margin: 0 auto 4.2rem;
   border: #ccc solid 0.2rem;
@@ -502,6 +502,9 @@ h3.texto-header.mobile {
   }
 }
 @media only screen and (min-width: 63.938rem){
+  .contenido-main{
+    height: 50rem;
+  }
   .contenedor-servicios {
     display: flex;
   }
@@ -648,6 +651,12 @@ footer p{
     height: 52.1rem;
     margin: 0 auto;
   }
+  .img-sobre-mi__1{
+    background-image: url("../img/tablet/Nosotros=logo.png"); 
+    width:32rem;
+    height: 33.8rem;
+    align-items: center;
+  }
   .texto-sobre-mi{
     text-align: center;
     margin: 0 10rem;
@@ -662,6 +671,12 @@ footer p{
     display: flex;
     width: 100%;
   }
+  .sobre-mi__arriba{
+    flex-direction: row;
+  }
+  .sobre-mi__abajo {
+    flex-direction: row;
+  }
   .img-sobre-mi{
     background-image: url('../img/Desktop/Karolyn-Guzman-del-Rosario-mi-historia.jpg');
     background-size: cover;
@@ -670,10 +685,15 @@ footer p{
     height: 61.2rem;
     margin: 0 auto;
   }
+  .img-sobre-mi__1{
+    background-image: url("../img/Desktop/Nosotros-logo.png"); 
+    width:47.2rem;
+    height: 49.8rem;
+  }
   .texto-sobre-mi {
     width: 50%;
   }
- 
+  
 }
 /** Servicios **/
 .servicio h1{
