@@ -406,6 +406,7 @@ h3.texto-header.mobile {
   background-size: cover;
   background-position: center center;
   width: 31rem;
+  margin: 0 auto;
   height: 45.9rem;
 }
 .acerca-de-mi__texto{
@@ -443,6 +444,7 @@ h3.texto-header.mobile {
     background-size: cover;
   background-position: center;
     width: 40.4rem;
+    margin: initial;
     height: 50.9rem;
   }
   .acerca-de-mi__texto {
@@ -464,11 +466,14 @@ h3.texto-header.mobile {
   height: 56rem;
   width: 28rem;
   margin: 0 auto 4.2rem;
-  border: #ccc solid 0.2rem;
+  /* border: #ccc solid 0.2rem; */
 }
 .contenido-main h2{
   text-align: center;
   padding-bottom: 1rem;
+}
+.contenido-main p{
+  text-align: center;
 }
 .contenedor-servicios .contenido-main:nth-child(1) .img-contenido-main {
   background-image: url('../img/mobile/Servicio3.jpg');
@@ -662,7 +667,7 @@ footer p{
     margin: 0 10rem;
   }
   .texto-sobre-mi > p{
-    font-size: 2.6rem;
+    font-size: 2rem;
     font-weight: 600;
   }
 }
@@ -687,8 +692,8 @@ footer p{
   }
   .img-sobre-mi__1{
     background-image: url("../img/Desktop/Nosotros-logo.png"); 
-    width:47.2rem;
-    height: 49.8rem;
+    width:50rem;
+    height: 52.8rem;
   }
   .texto-sobre-mi {
     width: 50%;
