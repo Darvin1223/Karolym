@@ -692,8 +692,8 @@ footer p{
   }
   .img-sobre-mi__1{
     background-image: url("../img/Desktop/Nosotros-logo.png"); 
-    width:50rem;
-    height: 52.8rem;
+    width: 100%;
+    height: 76.8rem;
   }
   .texto-sobre-mi {
     width: 50%;
