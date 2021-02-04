@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // 	});
 
 
-        console.log(Datos);
+        // console.log(Datos);
     });
 
 
