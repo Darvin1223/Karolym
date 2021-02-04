@@ -10,11 +10,13 @@ document.addEventListener("DOMContentLoaded", () => {
     // Manejo del DOM.
 
     // Selecionando elementos del DOM
-    let index_sobre_mi_img = document.querySelector(".img_index_sobre-mi"),
+    let slogan_bg_img = document.querySelector(".slogan_bg-img "),
+        index_sobre_mi_img = document.querySelector(".img_index_sobre-mi"),
         index_s_img_1 = document.querySelector('.index_s-img_1'),
         index_s_img_2 = document.querySelector('.index_s-img_2');
 
     const defauld = () => {
+        slogan_bg_img.setAttribute('src', '../img/Mobile/sloganfondo1.jpg');
         index_sobre_mi_img.setAttribute('src', '../img/Mobile/Karolyn-Guzman-del-Rosario-editada-celular.jpg');
         index_s_img_1.setAttribute('src', '../img/Mobile/Servicio2.jpg');
         index_s_img_2.setAttribute('src', '../img/Mobile/Servicio1.jpg');
@@ -22,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const mq_48 = mql_tablet => {
         if (mql_tablet.matches) {
+            slogan_bg_img.setAttribute('src', '../img/tablet/sloganfondo1.jpg');
             index_sobre_mi_img.setAttribute('src', '../img/tablet/Karolyn-Guzman-del-Rosario-1.jpg');
             index_s_img_1.setAttribute('src', '../img/tablet/Servicio2.jpg');
             index_s_img_2.setAttribute('src', '../img/tablet/Servicio1.jpg');
@@ -29,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     const mq_63 = mql_desktop => {
         if (mql_desktop.matches) {
-
+            slogan_bg_img.setAttribute('src', '../img/Desktop/sloganfondo1.jpg');
             index_sobre_mi_img.setAttribute('src', '../img/Desktop/Karolyn-Guzman-del-Rosario-1.jpg');
             index_s_img_1.setAttribute('src', '../img/Desktop/Servicio2.jpg');
             index_s_img_2.setAttribute('src', '../img/Desktop/Servicio1.jpg');

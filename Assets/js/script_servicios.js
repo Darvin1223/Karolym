@@ -10,25 +10,25 @@ document.addEventListener("DOMContentLoaded", () => {
     // Manejo del DOM.
 
     // Selecionando elementos del DOM
-    let img_sobre_mi = document.querySelector(".img-sobre-mi"),
-        logo_sobre_mi = document.querySelector('.logo-sobre-mi');
+    let index_s_img_1 = document.querySelector('.index_s-img_1'),
+        index_s_img_2 = document.querySelector('.index_s-img_2');
 
     const defauld = () => {
-        img_sobre_mi.setAttribute('src', '../img/Mobile/Karolyn-Guzman-del-Rosario-editada-celular.jpg');
-        logo_sobre_mi.setAttribute('src', '../img/Mobile/Nosotros-logo.png');
+        index_s_img_1.setAttribute('src', '../img/Mobile/Servicio2.jpg');
+        index_s_img_2.setAttribute('src', '../img/Mobile/Servicio1.jpg');
     };
 
     const mq_48 = mql_tablet => {
         if (mql_tablet.matches) {
-            img_sobre_mi.setAttribute('src', '../img/tablet/Karolyn-Guzman-del-Rosario-1-Recuperado.jpg');
-            logo_sobre_mi.setAttribute('src', '../img/tablet/Nosotros=logo.png');
+            index_s_img_1.setAttribute('src', '../img/tablet/Servicio2.jpg');
+            index_s_img_2.setAttribute('src', '../img/tablet/Servicio1.jpg');
         }
     };
     const mq_63 = mql_desktop => {
         if (mql_desktop.matches) {
 
-            img_sobre_mi.setAttribute('src', '../img/Desktop/Karolyn-Guzman-del-Rosario-mi-historia.jpg');
-            logo_sobre_mi.setAttribute('src', '../img/Desktop/Nosotros-logo.png');
+            index_s_img_1.setAttribute('src', '../img/Desktop/Servicio2.jpg');
+            index_s_img_2.setAttribute('src', '../img/Desktop/Servicio1.jpg');
         }
     };
 
