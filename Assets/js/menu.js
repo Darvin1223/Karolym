@@ -7,7 +7,7 @@ var contador = 1;
 function main() {
     $('.menu_bar').click(function() {
         // $('nav').toggle(); 
-        console.log("Funciona?");
+        // console.log("Funciona?");
 
         if (contador == 1) {
             $('nav').animate({
