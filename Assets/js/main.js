@@ -11,14 +11,14 @@ document.addEventListener('DOMContentLoaded', () => {
     formulario.addEventListener("submit", function(e) {
         e.preventDefault();
         let Nombre = document.getElementById('Nombre').value,
-            Telefono = document.getElementById('Numero').value,
+            Numero = document.getElementById('Numero').value,
             Correo = document.getElementById('Correo').value,
             Mensaje = document.getElementById('Mensaje').value;
 
 
         let Datos = {
             Nombre: ` ${Nombre}`,
-            Telefono: `${Telefono}`,
+            Numero: `${Numero}`,
             Correo: `${Correo}`,
             Mensaje: `${Mensaje}`
         };

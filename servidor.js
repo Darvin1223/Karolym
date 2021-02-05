@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const bodyParse = require("body-parser");
 const cors = require('cors');
-// const { con } = require('./conexion.js');
+const { con } = require('./conexion.js');
 
 
 const Servidor = express();
@@ -22,7 +22,7 @@ Servidor.use(cors());
 
 // end-point.
 Servidor.post('/formulario', (req, res) => {
-    let Datos = { id, Nombre, Telefono, Correo, Mensaje } = req.body;
+    let Datos = { id, Nombre, Numero, Correo, Mensaje } = req.body;
     con.query("INSERT INTO datos SET ?", Datos, (err, Datos) => {
         if (err) throw err;
         console.log(Datos);
