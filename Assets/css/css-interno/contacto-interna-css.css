@@ -134,8 +134,8 @@ textarea {
         width: 100%;
         align-items: flex-start;
     }
-    .derecha {
-        width: 70%;
+    .inpdere {
+        width: 100%;
     }
     textarea {
         align-self: auto;
