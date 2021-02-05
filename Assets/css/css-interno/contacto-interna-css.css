@@ -142,7 +142,7 @@ textarea {
         text-align: left;
         padding: 1rem 0 0 1rem;
     }
-    input.btn.btn-contato {
+    input.boton.btn-contato {
         display: flex;
         width: 25%;
         justify-content: center;
@@ -150,4 +150,7 @@ textarea {
         font-size: 2rem;
         margin-right: 0 auto;
     }
+    /* input.boton.btn-contato {
+        width: 26%;
+    } */
 }
