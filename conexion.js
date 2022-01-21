@@ -4,11 +4,11 @@ const mysql = require('mysql');
 
 const con = mysql.createConnection({
     client: "mysql",
-    host: "bogjh6pbc5kl55jqnj7w-mysql.services.clever-cloud.com",
+    host: "b9lcuhhigb8q0pfai7y2-mysql.services.clever-cloud.com",
     user: "ug6zszbetlialvbi",
     password: "78v7TeTAVYNTkZRROQE5",
     port: 3306,
-    database: "bogjh6pbc5kl55jqnj7w"
+    database: "b9lcuhhigb8q0pfai7y2"
 });
 
 // Verifica que la conexion no tenga errores.
